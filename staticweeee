@@ -1,4 +1,9 @@
- static website 
+a college wesite want to host using docker
+taks 
+run container and verify op
+
+
+static website 
 sudo apt update
 sudo apt install docker.io git -y
 sudo systemctl start docker
