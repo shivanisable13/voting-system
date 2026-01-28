@@ -1,0 +1,16 @@
+locally build website
+
+
+create folders on downloads proje
+dockerfile
+index.html
+
+
+
+PS C:\Users\HP> cd ~/Downloads
+PS C:\Users\HP\Downloads> cd proje
+PS C:\Users\HP\Downloads\proje> ls
+
+ docker build -t proje .
+
+ docker run -d -p 8080:80 proje
