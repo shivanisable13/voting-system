@@ -1,0 +1,14 @@
+ static website 
+sudo apt update
+sudo apt install docker.io git -y
+sudo systemctl start docker
+sudo systemctl enable docker
+docker --version
+git --version
+git clone https://github.com/anurajyellurkar29/college-website.git
+cd college-website
+sudo docker build -t college-website .
+sudo docker images
+sudo docker run -d -p 80:80 college-website
+sudo docker ps
+http://<EC2_PUBLIC_IP>
